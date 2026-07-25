@@ -52,10 +52,37 @@ header{
 .navlinks a.active{opacity:1;color:var(--deep);border-bottom:2px solid var(--signal);padding-bottom:2px}
 .navlinks a:focus-visible{outline:2px solid var(--signal-deep);outline-offset:4px;border-radius:2px}
 @media(max-width:720px){.navlinks{gap:18px;font-size:13px}}
-@media(max-width:520px){.navlinks a.hidemob{display:none}}
 .navlinks a.lang-switch{display:inline-flex;align-items:center;line-height:0;opacity:.7;transition:opacity .2s,transform .15s}
 .navlinks a.lang-switch svg{width:23px;height:auto;border-radius:3px;display:block;box-shadow:0 0 0 1px rgba(0,0,0,.12)}
 .navlinks a.lang-switch:hover{opacity:1;transform:translateY(-1px)}
+
+/* hamburger menu (mobile only) */
+.menu-toggle{position:absolute;opacity:0;pointer-events:none}
+.hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;width:32px;height:32px;padding:0;cursor:pointer;z-index:60}
+.hamburger span{display:block;height:2px;width:100%;background:var(--deep);border-radius:2px;transition:transform .25s ease,opacity .2s ease}
+.menu-toggle:focus-visible ~ .hamburger{outline:2px solid var(--signal-deep);outline-offset:3px;border-radius:4px}
+
+@media(max-width:640px){
+  .hamburger{display:flex}
+  .navlinks{
+    position:fixed;top:66px;left:0;right:0;
+    flex-direction:column;align-items:stretch;gap:0;
+    background:var(--panel);
+    border-bottom:1px solid var(--mist);
+    box-shadow:0 16px 30px -20px rgba(12,43,41,.35);
+    padding:0 28px;
+    max-height:0;overflow:hidden;opacity:0;
+    transition:max-height .3s ease,opacity .25s ease,padding .3s ease;
+  }
+  .navlinks a{padding:14px 0;border-top:1px solid var(--mist)}
+  .navlinks a:first-child{border-top:none}
+  .navlinks a.hidemob{display:block}
+  .navlinks a.lang-switch{padding:14px 0}
+  .menu-toggle:checked ~ .navlinks{max-height:70vh;opacity:1;padding:6px 28px 22px}
+  .menu-toggle:checked ~ .hamburger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .menu-toggle:checked ~ .hamburger span:nth-child(2){opacity:0}
+  .menu-toggle:checked ~ .hamburger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+}
 
 /* ---------- buttons ---------- */
 .btn{
