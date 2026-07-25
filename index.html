@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DNAmbientale - Gruppo di Ecologia del DNA Ambientale</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="alternate" hreflang="it" href="index.html">
+<link rel="alternate" hreflang="en" href="en/index.html">
+<link rel="alternate" hreflang="x-default" href="index.html">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="brand"><span class="dot"></span> DNAmbientale</a>
+    <nav class="navlinks">
+      <a href="index.html" class="active">Home</a>
+      <a href="ricerca.html">Ricerca</a>
+      <a href="pubblicazioni.html">Pubblicazioni</a>
+      <a href="persone.html">Persone</a>
+      <a href="contatti.html" class="hidemob">Contatti</a>
+      <a href="en/index.html" class="lang-switch" aria-label="English version" title="English version"><svg viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><clipPath id="s"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="t"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#s)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#t)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">DNA Ambientale · Genomica degli ecosistemi</span>
+        <h1>Leggiamo la biodiversità dalle tracce che la vita <em>lascia dietro di sé.</em></h1>
+        <p class="lede">Ogni organismo rilascia DNA nell'acqua, nel suolo e nell'aria che lo circondano. Noi cerchiamo di trasformare quelle tracce invisibili in elenchi di specie per monitoraggi di nuova generazione.</p>
+        <div class="cta-row">
+          <a href="ricerca.html" class="btn btn-primary">Esplora la ricerca</a>
+          <a href="pubblicazioni.html" class="btn btn-ghost">Pubblicazioni recenti</a>
+        </div>
+      </div>
+
+      <div class="readout" aria-hidden="true">
+        <svg viewBox="0 0 280 305" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="rise" gradientUnits="userSpaceOnUse" x1="140" y1="300" x2="140" y2="90">
+              <stop offset="0" stop-color="#3f6b66"/>
+              <stop offset=".45" stop-color="#0FA98C"/>
+              <stop offset="1" stop-color="#33D6B8"/>
+            </linearGradient>
+            <radialGradient id="leafgrad" cx="35%" cy="30%" r="75%">
+              <stop offset="0" stop-color="#33D6B8"/>
+              <stop offset="1" stop-color="#0FA98C"/>
+            </radialGradient>
+          </defs>
+
+          <!-- DNA: le due eliche terminano esattamente dove iniziano le due radici primarie -->
+          <path class="grow" style="animation-delay:0s;animation-duration:.7s" d="M110,300 C110,290 170,290 170,280 C170,270 110,270 110,260 C110,250 170,250 170,240 C170,230 110,230 110,220" fill="none" stroke="url(#rise)" stroke-width="2.5" stroke-linecap="round"/>
+          <path class="grow" style="animation-delay:.05s;animation-duration:.7s" d="M170,300 C170,290 110,290 110,280 C110,270 170,270 170,260 C170,250 110,250 110,240 C110,230 170,230 170,220" fill="none" stroke="url(#rise)" stroke-width="2.5" stroke-linecap="round"/>
+          <g class="leaf" style="animation-delay:.35s" stroke="#1E4A47" stroke-width="2" opacity=".7">
+            <line x1="120" y1="290" x2="160" y2="290"/>
+            <line x1="120" y1="270" x2="160" y2="270"/>
+            <line x1="120" y1="250" x2="160" y2="250"/>
+            <line x1="120" y1="230" x2="160" y2="230"/>
+          </g>
+
+          <!-- le due radici primarie, in continuità diretta con l'elica -->
+          <path class="grow" style="animation-delay:.55s;animation-duration:.4s" d="M110,220 C114,195 128,173 132,148" fill="none" stroke="url(#rise)" stroke-width="2.4" stroke-linecap="round"/>
+          <path class="grow" style="animation-delay:.6s;animation-duration:.4s" d="M170,220 C166,195 152,173 148,148" fill="none" stroke="url(#rise)" stroke-width="2.4" stroke-linecap="round"/>
+
+          <!-- si moltiplicano nelle altre tre, staccate dal DNA -->
+          <path class="grow" style="animation-delay:.85s;animation-duration:.35s" d="M118,200 C121,186 131,174 134,160" fill="none" stroke="url(#rise)" stroke-width="1.8" stroke-linecap="round"/>
+          <path class="grow" style="animation-delay:.88s;animation-duration:.35s" d="M162,200 C159,186 151,174 146,160" fill="none" stroke="url(#rise)" stroke-width="1.8" stroke-linecap="round"/>
+          <path class="grow" style="animation-delay:.9s;animation-duration:.35s" d="M140,145 C137,160 143,176 140,188" fill="none" stroke="url(#rise)" stroke-width="1.6" stroke-linecap="round"/>
+
+          <!-- tronco -->
+          <path class="grow" style="animation-delay:1.05s;animation-duration:.5s" d="M140,105 C138,122 142,138 140,145" fill="none" stroke="url(#rise)" stroke-width="5" stroke-linecap="round"/>
+          <path class="grow" style="animation-delay:1.35s;animation-duration:.35s" d="M141,120 C131,114 121,107 112,99" fill="none" stroke="url(#rise)" stroke-width="3" stroke-linecap="round"/>
+          <path class="grow" style="animation-delay:1.38s;animation-duration:.35s" d="M139,114 C149,108 159,101 168,95" fill="none" stroke="url(#rise)" stroke-width="3" stroke-linecap="round"/>
+
+          <!-- chioma: sboccia (scala da zero) invece di comparire in dissolvenza -->
+          <circle class="bloom" style="animation-delay:1.55s" cx="140" cy="68" r="36" fill="url(#leafgrad)" opacity=".92"/>
+          <circle class="bloom" style="animation-delay:1.62s" cx="104" cy="52" r="26" fill="url(#leafgrad)" opacity=".85"/>
+          <circle class="bloom" style="animation-delay:1.67s" cx="176" cy="50" r="28" fill="url(#leafgrad)" opacity=".85"/>
+          <circle class="bloom" style="animation-delay:1.72s" cx="140" cy="32" r="26" fill="url(#leafgrad)" opacity=".9"/>
+          <circle class="bloom" style="animation-delay:1.77s" cx="118" cy="85" r="20" fill="url(#leafgrad)" opacity=".8"/>
+          <circle class="bloom" style="animation-delay:1.8s" cx="164" cy="88" r="20" fill="url(#leafgrad)" opacity=".8"/>
+
+          <!-- farfalla in partenza -->
+          <path class="leaf" style="animation-delay:2.05s" d="M180,44 C198,36 208,33 214,33" fill="none" stroke="#8FB8B2" stroke-width="1.5" stroke-dasharray="2 5" opacity=".55"/>
+          <g class="butterfly" style="animation-delay:2.2s">
+            <path d="M245,30 C233,15 218,14 214,24 C217,32 232,32 245,33 Z" fill="#33D6B8" stroke="#0FA98C" stroke-width=".8"/>
+            <path d="M245,36 C236,45 223,47 220,40 C223,33 234,32 245,33 Z" fill="#33D6B8" stroke="#0FA98C" stroke-width=".8" opacity=".85"/>
+            <path d="M245,30 C257,15 272,14 276,24 C273,32 258,32 245,33 Z" fill="#33D6B8" stroke="#0FA98C" stroke-width=".8"/>
+            <path d="M245,36 C254,45 267,47 270,40 C267,33 256,32 245,33 Z" fill="#33D6B8" stroke="#0FA98C" stroke-width=".8" opacity=".85"/>
+            <ellipse cx="245" cy="33" rx="2.2" ry="9" fill="#0C2B29"/>
+            <path d="M244,25 C242,19 239,16 236,14" stroke="#33D6B8" stroke-width="1" fill="none" stroke-linecap="round"/>
+            <path d="M246,25 C248,19 251,16 254,14" stroke="#33D6B8" stroke-width="1" fill="none" stroke-linecap="round"/>
+          </g>
+        </svg>
+        <div class="seqband">…TAG<b>GATTACA</b>CGT ACGT<b>CCGAT</b>TAGC ACGTTAGCGTA…</div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="metastrip">
+        <div><b>3.500+</b> campioni analizzati</div>
+        <div><b>1000+</b> taxa rilevati</div>
+        <div><b>Aperti</b> dati e pipeline</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="about">
+        <div class="about-grid">
+          <div>
+            <span class="eyebrow">Il team</span>
+            <h2>Un team multidisciplinare per il monitoraggio innovativo</h2>
+            <p class="body">Le tecniche di monitoraggio tradizionali non riescono a tenere il passo con le sfide attuali. Attraverso l'analisi del DNA ambientale (eDNA) e l'applicazione di tecnologie genetiche all'avanguardia, forniamo soluzioni concrete per la conservazione della biodiversità su larga scala.</p>
+            <a href="ricerca.html" class="btn btn-ghost" style="border-color:rgba(255,255,255,.25);color:#fff">Come lavoriamo →</a>
+          </div>
+          <div class="team-photo placeholder">
+            <!-- TODO: sostituire con <img src="immagini/team.jpg" alt="Il gruppo di ricerca DNAmbientale"> -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l4.5-4.5a2 2 0 0 1 2.8 0L15 17M14 14l1.7-1.7a2 2 0 0 1 2.8 0L21 15"/></svg>
+            <span>Foto del gruppo di ricerca — da inserire</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="slim-foot">
+  <div class="wrap">
+    <span>© 2026 DNAmbientale · Gruppo di Ricerca sul DNA Ambientale</span>
+    <span><a href="contatti.html">dnambientale.it</a></span>
+  </div>
+</footer>
+
+</body>
+</html>

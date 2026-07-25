@@ -1,0 +1,15 @@
+# --- File di configurazione locale di R / RStudio ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# --- Cache ed elaborazioni temporanee di R Markdown / Quarto ---
+*_cache/
+*_files/
+.quarto/
+
+# --- File di sistema operativo ---
+.DS_Store
+Thumbs.db
