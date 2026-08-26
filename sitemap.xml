@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://dnambientale.it/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/ricerca.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/ricerca.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/ricerca.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/pubblicazioni.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/pubblicazioni.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/pubblicazioni.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/persone.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/persone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/people.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/persone.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/contatti.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/contatti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/contatti.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/progetto-coleotteri.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/progetto-coleotteri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/project-dung-beetles.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/progetto-coleotteri.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/progetto-macroinvertebrati.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/progetto-macroinvertebrati.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/project-macroinvertebrates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/progetto-macroinvertebrati.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/progetto-plecotteri.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/progetto-plecotteri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/project-stoneflies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/progetto-plecotteri.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/progetto-po.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/progetto-po.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/project-po-river.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/progetto-po.html"/>
+  </url>
+
+  <url>
+    <loc>https://dnambientale.it/en/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/en/research.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/ricerca.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/ricerca.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/en/publications.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/pubblicazioni.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/pubblicazioni.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/en/people.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/persone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/people.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/persone.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/contatti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/contatti.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/en/project-dung-beetles.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/progetto-coleotteri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/project-dung-beetles.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/progetto-coleotteri.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/en/project-macroinvertebrates.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/progetto-macroinvertebrati.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/project-macroinvertebrates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/progetto-macroinvertebrati.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/en/project-stoneflies.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/progetto-plecotteri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/project-stoneflies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/progetto-plecotteri.html"/>
+  </url>
+  <url>
+    <loc>https://dnambientale.it/en/project-po-river.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dnambientale.it/progetto-po.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dnambientale.it/en/project-po-river.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dnambientale.it/progetto-po.html"/>
+  </url>
+
+</urlset>
