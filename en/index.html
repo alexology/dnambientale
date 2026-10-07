@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css">
+<link rel="icon" href="../immagini/loghi/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" href="../immagini/loghi/favicon-32.png" sizes="32x32">
 <link rel="canonical" href="https://dnambientale.it/en/">
 <link rel="alternate" hreflang="it" href="../index.html">
 <link rel="alternate" hreflang="en" href="index.html">
@@ -17,7 +19,7 @@
 
 <header>
   <div class="wrap nav">
-    <a href="index.html" class="brand"><span class="dot"></span> DNAmbientale</a>
+    <a href="index.html" class="brand"><img src="../immagini/loghi/dnambientale-header.png" class="brand-logo" width="44" height="41" alt=""> <span>DNAmbientale</span></a>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="hamburger" aria-label="Open menu">
       <span></span><span></span><span></span>
@@ -50,19 +52,19 @@
         <svg viewBox="0 0 280 305" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient id="rise" gradientUnits="userSpaceOnUse" x1="140" y1="300" x2="140" y2="90">
-              <stop offset="0" stop-color="#3f6b66"/>
-              <stop offset=".45" stop-color="#0FA98C"/>
-              <stop offset="1" stop-color="#33D6B8"/>
+              <stop offset="0" stop-color="var(--illustration-base)"/>
+              <stop offset=".45" stop-color="var(--illustration-mid)"/>
+              <stop offset="1" stop-color="var(--signal)"/>
             </linearGradient>
             <radialGradient id="leafgrad" cx="35%" cy="30%" r="75%">
-              <stop offset="0" stop-color="#33D6B8"/>
-              <stop offset="1" stop-color="#0FA98C"/>
+              <stop offset="0" stop-color="var(--signal)"/>
+              <stop offset="1" stop-color="var(--illustration-mid)"/>
             </radialGradient>
           </defs>
 
           <path class="grow" style="animation-delay:0s;animation-duration:.7s" d="M110,300 C110,290 170,290 170,280 C170,270 110,270 110,260 C110,250 170,250 170,240 C170,230 110,230 110,220" fill="none" stroke="url(#rise)" stroke-width="2.5" stroke-linecap="round"/>
           <path class="grow" style="animation-delay:.05s;animation-duration:.7s" d="M170,300 C170,290 110,290 110,280 C110,270 170,270 170,260 C170,250 110,250 110,240 C110,230 170,230 170,220" fill="none" stroke="url(#rise)" stroke-width="2.5" stroke-linecap="round"/>
-          <g class="leaf" style="animation-delay:.35s" stroke="#1E4A47" stroke-width="2" opacity=".7">
+          <g class="leaf" style="animation-delay:.35s" stroke="var(--illustration-line)" stroke-width="2" opacity=".7">
             <line x1="120" y1="290" x2="160" y2="290"/>
             <line x1="120" y1="270" x2="160" y2="270"/>
             <line x1="120" y1="250" x2="160" y2="250"/>
@@ -87,15 +89,15 @@
           <circle class="bloom" style="animation-delay:1.77s" cx="118" cy="85" r="20" fill="url(#leafgrad)" opacity=".8"/>
           <circle class="bloom" style="animation-delay:1.8s" cx="164" cy="88" r="20" fill="url(#leafgrad)" opacity=".8"/>
 
-          <path class="leaf" style="animation-delay:2.05s" d="M180,44 C198,36 208,33 214,33" fill="none" stroke="#8FB8B2" stroke-width="1.5" stroke-dasharray="2 5" opacity=".55"/>
+          <path class="leaf" style="animation-delay:2.05s" d="M180,44 C198,36 208,33 214,33" fill="none" stroke="var(--illustration-trail)" stroke-width="1.5" stroke-dasharray="2 5" opacity=".55"/>
           <g class="butterfly" style="animation-delay:2.2s">
-            <path d="M245,30 C233,15 218,14 214,24 C217,32 232,32 245,33 Z" fill="#33D6B8" stroke="#0FA98C" stroke-width=".8"/>
-            <path d="M245,36 C236,45 223,47 220,40 C223,33 234,32 245,33 Z" fill="#33D6B8" stroke="#0FA98C" stroke-width=".8" opacity=".85"/>
-            <path d="M245,30 C257,15 272,14 276,24 C273,32 258,32 245,33 Z" fill="#33D6B8" stroke="#0FA98C" stroke-width=".8"/>
-            <path d="M245,36 C254,45 267,47 270,40 C267,33 256,32 245,33 Z" fill="#33D6B8" stroke="#0FA98C" stroke-width=".8" opacity=".85"/>
-            <ellipse cx="245" cy="33" rx="2.2" ry="9" fill="#0C2B29"/>
-            <path d="M244,25 C242,19 239,16 236,14" stroke="#33D6B8" stroke-width="1" fill="none" stroke-linecap="round"/>
-            <path d="M246,25 C248,19 251,16 254,14" stroke="#33D6B8" stroke-width="1" fill="none" stroke-linecap="round"/>
+            <path d="M245,30 C233,15 218,14 214,24 C217,32 232,32 245,33 Z" fill="var(--signal)" stroke="var(--illustration-mid)" stroke-width=".8"/>
+            <path d="M245,36 C236,45 223,47 220,40 C223,33 234,32 245,33 Z" fill="var(--signal)" stroke="var(--illustration-mid)" stroke-width=".8" opacity=".85"/>
+            <path d="M245,30 C257,15 272,14 276,24 C273,32 258,32 245,33 Z" fill="var(--signal)" stroke="var(--illustration-mid)" stroke-width=".8"/>
+            <path d="M245,36 C254,45 267,47 270,40 C267,33 256,32 245,33 Z" fill="var(--signal)" stroke="var(--illustration-mid)" stroke-width=".8" opacity=".85"/>
+            <ellipse cx="245" cy="33" rx="2.2" ry="9" fill="var(--deep)"/>
+            <path d="M244,25 C242,19 239,16 236,14" stroke="var(--signal)" stroke-width="1" fill="none" stroke-linecap="round"/>
+            <path d="M246,25 C248,19 251,16 254,14" stroke="var(--signal)" stroke-width="1" fill="none" stroke-linecap="round"/>
           </g>
         </svg>
         <div class="seqband">…TAG<b>GATTACA</b>CGT ACGT<b>CCGAT</b>TAGC ACGTTAGCGTA…</div>

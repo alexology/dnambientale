@@ -13,3 +13,7 @@
 # --- File di sistema operativo ---
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# --- Configurazione locale degli assistenti ---
+.claude/
