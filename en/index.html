@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DNAmbientale - Environmental DNA Ecology Group</title>
+<title>Environmental DNA and biodiversity monitoring | DNAmbientale</title>
+<meta name="description" content="University of Turin research group studying environmental DNA, metabarcoding and biodiversity. Explore DNAmbientale’s team, projects and publications.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -11,9 +12,60 @@
 <link rel="icon" href="../immagini/loghi/favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" type="image/png" href="../immagini/loghi/favicon-32.png" sizes="32x32">
 <link rel="canonical" href="https://dnambientale.it/en/">
-<link rel="alternate" hreflang="it" href="../index.html">
-<link rel="alternate" hreflang="en" href="index.html">
-<link rel="alternate" hreflang="x-default" href="../index.html">
+<link rel="alternate" hreflang="it" href="https://dnambientale.it/">
+<link rel="alternate" hreflang="en" href="https://dnambientale.it/en/">
+<link rel="alternate" hreflang="x-default" href="https://dnambientale.it/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dnambientale.it/#organization",
+      "name": "DNAmbientale",
+      "url": "https://dnambientale.it/",
+      "logo": "https://dnambientale.it/immagini/loghi/dnambientale-completo.png",
+      "description": "DNAmbientale is a research group in the Department of Life Sciences and Systems Biology at the University of Turin. We bring together ecology, genomics and bioinformatics to study and monitor biodiversity through environmental DNA and metabarcoding.",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Department of Life Sciences and Systems Biology",
+        "parentOrganization": {
+          "@type": "CollegeOrUniversity",
+          "name": "Università di Torino",
+          "url": "https://www.unito.it/"
+        }
+      },
+      "member": [
+        {
+          "@id": "https://dnambientale.it/persone.html#alex-laini"
+        },
+        {
+          "@id": "https://dnambientale.it/persone.html#samuele-voyron"
+        },
+        {
+          "@id": "https://dnambientale.it/persone.html#laura-gruppuso"
+        },
+        {
+          "@id": "https://dnambientale.it/persone.html#gianluca-natta"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dnambientale.it/#website",
+      "name": "DNAmbientale",
+      "url": "https://dnambientale.it/",
+      "inLanguage": [
+        "it",
+        "en"
+      ],
+      "publisher": {
+        "@id": "https://dnambientale.it/#organization"
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -27,6 +79,7 @@
     <nav class="navlinks">
       <a href="index.html" class="active">Home</a>
       <a href="research.html">Research</a>
+      <a href="asvatlas.html">ASVAtlas</a>
       <a href="publications.html">Publications</a>
       <a href="people.html">People</a>
       <a href="contact.html" class="hidemob">Contact</a>
@@ -41,7 +94,7 @@
       <div>
         <span class="eyebrow">Environmental DNA · Ecosystem genomics</span>
         <h1>We read biodiversity from the traces life <em>leaves behind.</em></h1>
-        <p class="lede">Every organism releases DNA into the water, soil and air around it. We are working to turn those invisible traces into species lists for next-generation monitoring.</p>
+        <p class="lede">DNAmbientale is a research group in the Department of Life Sciences and Systems Biology at the University of Turin. We bring together ecology, genomics and bioinformatics to study and monitor biodiversity through environmental DNA and metabarcoding.</p>
         <div class="cta-row">
           <a href="research.html" class="btn btn-primary">Explore our research</a>
           <a href="publications.html" class="btn btn-ghost">Recent publications</a>
@@ -121,7 +174,7 @@
             <span class="eyebrow">The team</span>
             <h2>A multidisciplinary team for next-generation monitoring</h2>
             <p class="body">Traditional monitoring techniques can't keep up with today's challenges. Through environmental DNA (eDNA) analysis and the application of cutting-edge genetic technologies, we provide concrete solutions for biodiversity conservation at scale.</p>
-            <a href="research.html" class="btn btn-ghost" style="border-color:rgba(255,255,255,.25);color:#fff">How we work →</a>
+            <a href="people.html" class="btn btn-ghost" style="border-color:rgba(255,255,255,.25);color:#fff">Meet the team →</a>
           </div>
           <div class="team-photo">
             <img src="../immagini/immagine_index.png" alt="The DNAmbientale research group">

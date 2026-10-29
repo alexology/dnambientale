@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Publications - DNAmbientale</title>
+<title>Metabarcoding publications and software | DNAmbientale</title>
+<meta name="description" content="Scientific publications and open source software from DNAmbientale for eDNA, metabarcoding and biomonitoring: aasv, metabarpipe and biomonitoR.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -11,9 +12,9 @@
 <link rel="icon" href="../immagini/loghi/favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" type="image/png" href="../immagini/loghi/favicon-32.png" sizes="32x32">
 <link rel="canonical" href="https://dnambientale.it/en/publications.html">
-<link rel="alternate" hreflang="it" href="../pubblicazioni.html">
-<link rel="alternate" hreflang="en" href="publications.html">
-<link rel="alternate" hreflang="x-default" href="../pubblicazioni.html">
+<link rel="alternate" hreflang="it" href="https://dnambientale.it/pubblicazioni.html">
+<link rel="alternate" hreflang="en" href="https://dnambientale.it/en/publications.html">
+<link rel="alternate" hreflang="x-default" href="https://dnambientale.it/pubblicazioni.html">
 </head>
 <body>
 
@@ -27,6 +28,7 @@
     <nav class="navlinks">
       <a href="index.html">Home</a>
       <a href="research.html">Research</a>
+      <a href="asvatlas.html">ASVAtlas</a>
       <a href="publications.html" class="active">Publications</a>
       <a href="people.html">People</a>
       <a href="contact.html" class="hidemob">Contact</a>
@@ -56,7 +58,7 @@
         <p>Open source packages and pipelines born from the group's work, designed to be reused by other labs.</p>
       </div>
       <div class="cards">
-        <div class="card">
+        <div class="card" id="aasv">
           <h3>aasv</h3>
           <p>R package for Windows that assesses whether COI metabarcoding sequence variants (ASVs) represent authentic biological sequences: downloads reference data from BOLD, aligns at the amino acid level, and produces a functionality index.</p>
           <div class="tags">
@@ -64,18 +66,20 @@
             <span class="tag">v0.1.0</span>
             <span class="tag">GPL-2+</span>
           </div>
+          <p class="related-link">Research on this topic: <a href="project-dung-beetles.html">Dung beetle metabarcoding</a></p>
           <a href="https://github.com/alexology/aasv" class="card-link" target="_blank" rel="noopener">View repository →</a>
         </div>
-        <div class="card">
+        <div class="card" id="metabarpipe">
           <h3>metabarpipe</h3>
           <p>Organized R pipeline for Windows that leverages vsearch and cutadapt to process environmental metabarcoding data.</p>
           <div class="tags">
             <span class="tag">R</span>
             <span class="tag">v0.1.1</span>
           </div>
+          <p class="related-link">Research on this topic: <a href="research.html">Metabarcoding projects</a></p>
           <a href="https://github.com/alexology/metabarpipe" class="card-link" target="_blank" rel="noopener">View repository →</a>
         </div>
-        <div class="card">
+        <div class="card" id="biomonitoR">
           <h3>biomonitoR</h3>
           <p>R package to manage taxonomic and functional information and compute biomonitoring indices for running waters, with a focus on the macroinvertebrate community.</p>
           <div class="tags">
@@ -83,6 +87,7 @@
             <span class="tag">v0.9.3</span>
             <span class="tag">GPL-2.0</span>
           </div>
+          <p class="related-link">Research on this topic: <a href="project-macroinvertebrates.html">Macroinvertebrates and biomonitoring</a></p>
           <a href="https://github.com/alexology/biomonitoR" class="card-link" target="_blank" rel="noopener">View repository →</a>
         </div>
       </div>
@@ -98,38 +103,38 @@
       <div class="pub-list">
       <div class="pub">
         <span class="yr">2026</span>
-        <span class="t">Species identification, discovery, and biomonitoring: Strategic priorities for DNA barcoding in Europe, set in a global context
-          <em>Hollingsworth, P.M. · Fantoni, K. · Koureas, D. · Arakelyan, M. · Aravanopoulos, F.A. · Bacela-Spychalska, K. · Ballesteros-Mejia, L. · Beja, P. · Bonchev, G. N. · Bou Dagher Kharrat, M. · Bourlat, S.J. · Chkhartishvili, T. · Čiampor, F. · Costa, F.O. · Csabai, Z. · Dankova, G. · Ekrem, T. · Emerson, B. · Ferreira, S. · Gadawski, P. · Gkagkavouzis, K. · Hebert, P.D.N. · Ichim, M.C. · Jelić, M. · Kaitetzidou, E. · Kalamujić Stroil, B. · Kamenova, S. · Keskin, E. · Laini, A. · Lawnicza, M. · Madesis, P. · Montagna, M. · Mutanen, M. · Peters, R. S. · Price, B. · Rewicz, T. · Rougerie, R. · Rulik, B. · Szucsich, N. · Vos, R. · Goodal-Copestake, W.P. · Triantafyllidis, A. · Grabowski, M.</em></span>
+        <span class="t" id="dna-barcoding-europe">Species identification, discovery, and biomonitoring: Strategic priorities for DNA barcoding in Europe, set in a global context
+          <em>Hollingsworth, P.M. · Fantoni, K. · Koureas, D. · Arakelyan, M. · Aravanopoulos, F.A. · Bacela-Spychalska, K. · Ballesteros-Mejia, L. · Beja, P. · Bonchev, G. N. · Bou Dagher Kharrat, M. · Bourlat, S.J. · Chkhartishvili, T. · Čiampor, F. · Costa, F.O. · Csabai, Z. · Dankova, G. · Ekrem, T. · Emerson, B. · Ferreira, S. · Gadawski, P. · Gkagkavouzis, K. · Hebert, P.D.N. · Ichim, M.C. · Jelić, M. · Kaitetzidou, E. · Kalamujić Stroil, B. · Kamenova, S. · Keskin, E. · <a href="people.html#alex-laini" aria-label="Alex Laini">Laini, A.</a> · Lawnicza, M. · Madesis, P. · Montagna, M. · Mutanen, M. · Peters, R. S. · Price, B. · Rewicz, T. · Rougerie, R. · Rulik, B. · Szucsich, N. · Vos, R. · Goodal-Copestake, W.P. · Triantafyllidis, A. · Grabowski, M.</em></span>
         <span class="venue">Bioscience</span>
       </div>
       <div class="pub">
         <span class="yr">2026</span>
-        <span class="t">Soil microbial communities and carbon and nitrogen forms across snow-driven vegetation types in alpine tundra
-          <em>Benech, A. · Pintaldi, E. · Voyron, S. · Gruppuso, L. · Marengo, G. · Lombardi, G. · Girlanda, M. · Freppaz, M.</em></span>
+        <span class="t" id="soil-microbial-communities">Soil microbial communities and carbon and nitrogen forms across snow-driven vegetation types in alpine tundra
+          <em>Benech, A. · Pintaldi, E. · <a href="people.html#samuele-voyron" aria-label="Samuele Voyron">Voyron, S.</a> · <a href="people.html#laura-gruppuso" aria-label="Laura Gruppuso">Gruppuso, L.</a> · Marengo, G. · Lombardi, G. · Girlanda, M. · Freppaz, M.</em></span>
         <span class="venue">Frontiers in Microbiology</span>
       </div>
       <div class="pub">
         <span class="yr">2024</span>
-        <span class="t">DNA barcoding reference libraries of Italian Plecoptera: a gap analysis
-          <em>Laini, A. · Fenoglio, S. · Bo, T.</em></span>
+        <span class="t" id="italian-plecoptera">DNA barcoding reference libraries of Italian Plecoptera: a gap analysis
+          <em><a href="people.html#alex-laini" aria-label="Alex Laini">Laini, A.</a> · Fenoglio, S. · Bo, T.</em><span class="related-link">Research on this topic: <a href="project-stoneflies.html">Italian stonefly DNA barcodes</a></span></span>
         <span class="venue">The European Zoological Journal</span>
       </div>
       <div class="pub">
         <span class="yr">2023</span>
-        <span class="t">Dissecting biodiversity: assessing the taxonomic, functional and phylogenetic structure of an insect metacommunity in a river network using morphological and metabarcoding data
-          <em>Laini, A. · Stubbington, R. · Beermann, A.J. · Burgazzi, G. · Datry, T. · Viaroli, P. · Wilkes, M. · Zizka, V.M.A. · Saccò, M. · Leese, F.</em></span>
+        <span class="t" id="insect-metacommunity">Dissecting biodiversity: assessing the taxonomic, functional and phylogenetic structure of an insect metacommunity in a river network using morphological and metabarcoding data
+          <em><a href="people.html#alex-laini" aria-label="Alex Laini">Laini, A.</a> · Stubbington, R. · Beermann, A.J. · Burgazzi, G. · Datry, T. · Viaroli, P. · Wilkes, M. · Zizka, V.M.A. · Saccò, M. · Leese, F.</em></span>
         <span class="venue">The European Zoological Journal</span>
       </div>
       <div class="pub">
         <span class="yr">2023</span>
-        <span class="t">When nets meet environmental DNA metabarcoding: integrative approach to unveil invertebrate community patterns of hypersaline lakes
-          <em>Campbell, M. · Laini, A. · White, N.E. · Allentoft, M.E. · Saccò, M.</em></span>
+        <span class="t" id="hypersaline-lakes">When nets meet environmental DNA metabarcoding: integrative approach to unveil invertebrate community patterns of hypersaline lakes
+          <em>Campbell, M. · <a href="people.html#alex-laini" aria-label="Alex Laini">Laini, A.</a> · White, N.E. · Allentoft, M.E. · Saccò, M.</em></span>
         <span class="venue">Journal of Oceanology and Limnology</span>
       </div>
       <div class="pub">
         <span class="yr">2020</span>
-        <span class="t">Exploring the potential of metabarcoding to disentangle macroinvertebrate community dynamics in intermittent streams
-          <em>Laini, A. · Beermann, A.J. · Bolpagni, R. · Burgazzi, G. · Elbrecht, V. · Zizka, V.M.A. · Leese, F. · Viaroli, P.</em></span>
+        <span class="t" id="intermittent-streams">Exploring the potential of metabarcoding to disentangle macroinvertebrate community dynamics in intermittent streams
+          <em><a href="people.html#alex-laini" aria-label="Alex Laini">Laini, A.</a> · Beermann, A.J. · Bolpagni, R. · Burgazzi, G. · Elbrecht, V. · Zizka, V.M.A. · Leese, F. · Viaroli, P.</em><span class="related-link">Research on this topic: <a href="project-macroinvertebrates.html">Macroinvertebrate resilience</a></span></span>
         <span class="venue">Metabarcoding and Metagenomics</span>
       </div>
       </div>

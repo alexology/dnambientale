@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASVAtlas: where in the world is your ASV? | DNAmbientale</title>
+<meta name="description" content="ASVAtlas is a free web application to search your ASVs in a reference database, see them on the world map and compare them in haplotype networks.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<link rel="icon" href="../immagini/loghi/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" href="../immagini/loghi/favicon-32.png" sizes="32x32">
+<link rel="canonical" href="https://dnambientale.it/en/asvatlas.html">
+<link rel="alternate" hreflang="it" href="https://dnambientale.it/asvatlas.html">
+<link rel="alternate" hreflang="en" href="https://dnambientale.it/en/asvatlas.html">
+<link rel="alternate" hreflang="x-default" href="https://dnambientale.it/asvatlas.html">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="brand"><img src="../immagini/loghi/dnambientale-header.png" class="brand-logo" width="44" height="41" alt=""> <span>DNAmbientale</span></a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="asvatlas.html" class="active">ASVAtlas</a>
+      <a href="publications.html">Publications</a>
+      <a href="people.html">People</a>
+      <a href="contact.html" class="hidemob">Contact</a>
+      <a href="../asvatlas.html" class="lang-switch" aria-label="Versione italiana" title="Versione italiana"><svg viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="1" height="2" x="0" fill="#009246"/><rect width="1" height="2" x="1" fill="#fff"/><rect width="1" height="2" x="2" fill="#CE2B37"/></svg></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">Tool · Web application</span>
+      <h1>ASVAtlas: where in the world is your ASV?</h1>
+      <p>A free web application to search your ASVs in a reference database, see on the map where they have already been found and compare them in haplotype networks.</p>
+      <p><a href="https://asvatlas.dnambientale.it" class="btn btn-primary" target="_blank" rel="noopener">Open ASVAtlas</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="project-media"><img src="../immagini/asvatlas.png" alt="ASVAtlas: the ASVs searched and the places of the matching records on the world map" loading="lazy"></div>
+
+      <div class="project-copy">
+        <p>DNA metabarcoding yields lists of ASVs (amplicon sequence variants), exact sequences that often tell apart not only species but also their genetic variants. ASVAtlas compares these sequences with a reference database and shows on a map where identical or similar sequences have already been found in other studies.</p>
+        <p>It is simple to use: paste your ASVs in FASTA format, or load a file, and choose the similarity, from 100% (identical records) to 90%. For each ASV the application gives the species and the places and countries where it occurs. For the species found you can build haplotype networks (median-joining, TCS, minimum spanning network) and see on the map which populations are genetically closest to your ASV. You can also load the coordinates of your samples, which stay in your browser, to see the distance to the nearest record.</p>
+        <p>The first database, <em>Freshwater invertebrates</em>, holds 8,198 COI ASVs (BF3–BR2 fragment) of freshwater macroinvertebrates from 19 metabarcoding studies in 14 countries, with more than 21,000 georeferenced records. We reprocessed all the studies from the raw reads with one pipeline, so that ASVs of different studies can be compared. The <em>Reference data</em> tab of the application lists the studies and explains how the data were processed.</p>
+
+        <blockquote class="project-callout">Comparing your ASVs with those of other studies turns a list of species into a map of their genetic diversity.</blockquote>
+
+        <p>ASVAtlas is written in Julia and is open source. The sequences you search are used only to answer the search and are not stored; the site keeps only anonymous usage counts. The reference database can grow with new studies and, in the future, other markers.</p>
+      </div>
+
+      <div class="project-copy related-resources">
+        <h2>Further reading</h2>
+        <p><a href="https://asvatlas.dnambientale.it" target="_blank" rel="noopener">Open ASVAtlas</a></p>
+        <p><a href="people.html">Meet the research group</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="slim-foot">
+  <div class="wrap">
+    <span>© 2026 DNAmbientale · Environmental DNA Research Group</span>
+    <span><a href="contact.html">dnambientale.it</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
